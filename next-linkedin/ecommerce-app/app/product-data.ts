@@ -25,7 +25,7 @@ export const products: Product[] = [
     id: "456",
     name: "Shirt",
     imageUrl: "shirt.jpg",
-    description: "Our t-shirts are made from ring-spun, long-staple organiza...",
+    description: "Our t-shirts are made from ring-spun, long-staple organic cotton that's ethically sourced from member farms of local organic cotton cooperatives. Original artwork is screen printed using PVC- and phthalate-free inks. Features crew-neck styling, shoulder-to-shoulder taping, and buttery soft feel. Machine-wash warm, tumble-dry low. ",
     price: 29,
   },
   {
