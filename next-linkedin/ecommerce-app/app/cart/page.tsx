@@ -9,8 +9,8 @@ export default function CartPage() {
   const cartProducts = cartIds.map((id) => products.find((p) => p.id === id)!);
   const totalPrice = cartProducts.reduce((total, p) => total + p.price, 0);
   return (
-    <>
-      <h1>Shopping Cart</h1>
+    <div className="container mx-auto">
+      <h1 className="text-4xl my-8 font-bold">Shopping Cart</h1>
       <div className="flex gap-3 py-3">
         {cartProducts.map((product) => (
           <Link
@@ -23,9 +23,8 @@ export default function CartPage() {
           </Link>
         ))}
       </div>
-      <div>
-        <h2>Total: ${totalPrice}</h2>
-      </div>
-    </>
+
+      <h2 className="text-2xl font-semibold my-3">Total: ${totalPrice}</h2>
+    </div>
   );
 }
