@@ -11,7 +11,7 @@ export const products: Product[] = [
     id: "123",
     name: "Hat",
     imageUrl: "hat.jpg",
-    description: "Cheer the team on in style with our unstructured, low cr...",
+    description: "Cheer the team on in style with our unstructured, low crown, six-panel baseball cap made of 100% organic cotton twill. Featuring our original Big Star Collectibles artwork, screen-printed with PVC- and phthalate-free inks. Complete with matching sewn ventilation eyelets, and adjustable fabric closure.",
     price: 29,
   },
   {

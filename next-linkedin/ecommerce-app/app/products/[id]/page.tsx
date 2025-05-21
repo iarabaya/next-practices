@@ -9,6 +9,9 @@ export default function ProductDetailPage({
   return (
     <>
       <h1>{product?.name}</h1>
+      <p>$ {product?.price}</p>
+      <h3>Description</h3>
+      <p>{product?.description}</p>
     </>
   );
 }
