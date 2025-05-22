@@ -22,14 +22,14 @@ export const products: Product[] = [
     price: 16,
   },
   {
-    id: "456",
+    id: "345",
     name: "Shirt",
     imageUrl: "shirt.jpg",
     description: "Our t-shirts are made from ring-spun, long-staple organic cotton that's ethically sourced from member farms of local organic cotton cooperatives. Original artwork is screen printed using PVC- and phthalate-free inks. Features crew-neck styling, shoulder-to-shoulder taping, and buttery soft feel. Machine-wash warm, tumble-dry low. ",
     price: 30,
   },
   {
-    id: "678",
+    id: "456",
     name: "Apron",
     imageUrl: "apron.jpg",
     description: "Everyone's a chef in our eco-friendly apron made from 55% organic cotton and 45% recycled polyester. Showcasing your favourite Big Star Collectibles design, the apron is screen-printed in PVC- and phthalate-free inks. Apron measures 24 inches wide by 30 inches long and is easily adjustable around the neck and waist with one continuous strap. Machine-wash warm, tumble-dry low.",
