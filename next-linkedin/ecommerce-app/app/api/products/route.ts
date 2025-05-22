@@ -1,20 +1,8 @@
-// import { products } from "@/app/product-data";
+import { products } from "@/app/product-data";
 import { connectToDb } from "../db";
 
 //old
-// export async function GET() {
-//   return new Response(JSON.stringify(products), {
-//     status: 200,
-//     headers: {
-//       'Content-Type': 'application/json'
-//     }
-//   });
-// }
-
 export async function GET() {
-  const { db } = await connectToDb();
-  const products  = await db.collection("products").find({}).toArray();
-
   return new Response(JSON.stringify(products), {
     status: 200,
     headers: {
@@ -22,3 +10,15 @@ export async function GET() {
     }
   });
 }
+
+// export async function GET() {
+//   const { db } = await connectToDb();
+//   const products  = await db.collection("products").find({}).toArray();
+
+//   return new Response(JSON.stringify(products), {
+//     status: 200,
+//     headers: {
+//       'Content-Type': 'application/json'
+//     }
+//   });
+// }
