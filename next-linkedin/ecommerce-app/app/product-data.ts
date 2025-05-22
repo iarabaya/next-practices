@@ -18,7 +18,7 @@ export const products: Product[] = [
     id: "234",
     name: "Mug",
     imageUrl: "mug.jpg",
-    description: "Enjoy your morning coffee or tea in the company of your...",
+    description: "Enjoy your morning coffee or tea in the company of your favourite Big Star Collectible character. Our strong ceramic mug, with its comfortable D-shaped handle, is microwave and dishwasher safe, and available in one size: 11 oz.",
     price: 16,
   },
   {
@@ -32,7 +32,7 @@ export const products: Product[] = [
     id: "678",
     name: "Apron",
     imageUrl: "apron.jpg",
-    description: "Everyone's a chef in our eco-friendly apron made from 55%...",
+    description: "Everyone's a chef in our eco-friendly apron made from 55% organic cotton and 45% recycled polyester. Showcasing your favourite Big Star Collectibles design, the apron is screen-printed in PVC- and phthalate-free inks. Apron measures 24 inches wide by 30 inches long and is easily adjustable around the neck and waist with one continuous strap. Machine-wash warm, tumble-dry low.",
     price: 29,
   },
 ];
